@@ -1,5 +1,16 @@
 {
-  "name": "mono-pub-test",
-  "main": "src/index.js",
-  "packageManager": "yarn@3.2.3"
+  "name": "@christopher.tobolski/mono-pub-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": "bin/main.js",
+  "files": [
+    "bin/main.js"
+  ],
+  "scripts": {
+    "mono-pub-test": "echo 'hello'"
+  },
+  "packageManager": "yarn@3.2.3",
+  "dependencies": {
+    "commander": "^9.4.0"
+  }
 }
