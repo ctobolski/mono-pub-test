@@ -1,6 +1,6 @@
 {
   "name": "@christopher.tobolski/mono-pub-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "bin": "bin/main.js",
   "files": [
