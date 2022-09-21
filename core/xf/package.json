@@ -1,6 +1,6 @@
 {
   "name": "@christopher.tobolski/xf",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "a tool for templating monorepo packages",
   "license": "MIT",
   "author": {
