@@ -32,21 +32,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@christopher.tobolski/mono-pub-test@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@christopher.tobolski/mono-pub-test@workspace:."
-  dependencies:
-    lerna: ^5.5.2
-  bin:
-    mono-pub-test: bin/main.js
-  languageName: unknown
-  linkType: soft
-
-"@christopher.tobolski/printer@workspace:^, @christopher.tobolski/printer@workspace:core/printer":
+"@christopher.tobolski/printer@workspace:*, @christopher.tobolski/printer@workspace:core/printer":
   version: 0.0.0-use.local
   resolution: "@christopher.tobolski/printer@workspace:core/printer"
-  bin:
-    printer: main.js
   languageName: unknown
   linkType: soft
 
@@ -54,7 +42,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@christopher.tobolski/xf@workspace:core/xf"
   dependencies:
-    "@christopher.tobolski/printer": "workspace:^"
+    "@christopher.tobolski/printer": "workspace:*"
     commander: ^9.4.0
   bin:
     xf: cli.js
@@ -3638,6 +3626,14 @@ __metadata:
   checksum: 8296610c608bc97b03c2cf889c6cdf4517e32fa2d836440096374c2209f6b7b3e256c209493a0b32584b9cb32d528e99d0dd19dcd9a14d2d915a312d391cc7e9
   languageName: node
   linkType: hard
+
+"mono-pub-test@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "mono-pub-test@workspace:."
+  dependencies:
+    lerna: ^5.5.2
+  languageName: unknown
+  linkType: soft
 
 "ms@npm:2.1.2":
   version: 2.1.2

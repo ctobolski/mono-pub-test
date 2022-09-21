@@ -10,7 +10,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "bin": "main.js",
+  "main": "main.js",
   "files": [
     "main.js"
   ],

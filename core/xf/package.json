@@ -20,7 +20,7 @@
     "directory": "core/xf"
   },
   "dependencies": {
-    "@christopher.tobolski/printer": "workspace:^",
+    "@christopher.tobolski/printer": "workspace:*",
     "commander": "^9.4.0"
   }
 }

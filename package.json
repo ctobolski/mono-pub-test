@@ -1,11 +1,7 @@
 {
-  "name": "@christopher.tobolski/mono-pub-test",
+  "name": "mono-pub-test",
   "version": "1.0.2",
   "private": true,
-  "bin": "bin/main.js",
-  "scripts": {
-    "mono-pub-test": "echo 'hello'"
-  },
   "packageManager": "yarn@3.2.3",
   "workspaces": [
     "core/*"
