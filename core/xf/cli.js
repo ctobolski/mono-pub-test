@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const program = require('commander')
-require('@christopher.tobolski/printer')
+const print = require('@christopher.tobolski/printer').print
+
 
 program
   .option('--first')
