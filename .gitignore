@@ -1,5 +1,5 @@
 ### Yarn Start
-#.pnp.*
+.pnp.*
 .yarn/*
 !.yarn/cache
 !.yarn/patches
