@@ -42,7 +42,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@christopher.tobolski/printer@*, @christopher.tobolski/printer@workspace:core/printer":
+"@christopher.tobolski/printer@workspace:^, @christopher.tobolski/printer@workspace:core/printer":
   version: 0.0.0-use.local
   resolution: "@christopher.tobolski/printer@workspace:core/printer"
   bin:
@@ -54,7 +54,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@christopher.tobolski/xf@workspace:core/xf"
   dependencies:
-    "@christopher.tobolski/printer": "*"
+    "@christopher.tobolski/printer": "workspace:^"
     commander: ^9.4.0
   bin:
     xf: cli.js
