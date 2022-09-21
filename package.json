@@ -3,14 +3,17 @@
   "version": "1.0.2",
   "license": "MIT",
   "bin": "bin/main.js",
-  "files": [
-    "bin/main.js"
-  ],
   "scripts": {
     "mono-pub-test": "echo 'hello'"
   },
   "packageManager": "yarn@3.2.3",
   "dependencies": {
     "commander": "^9.4.0"
+  },
+  "workspaces": [
+    "core/*"
+  ],
+  "devDependencies": {
+    "lerna": "^5.5.2"
   }
 }

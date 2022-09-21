@@ -1,0 +1,23 @@
+{
+  "name": "@christopher.tobolski/xf",
+  "version": "1.0.0",
+  "description": "a tool for templating monorepo packages",
+  "license": "MIT",
+  "author": {
+    "name": "Chris Tobolski",
+    "email": "christopher.tobolski@gmail.com"
+  },
+  "bin": {
+    "xf": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctobolski/mono-pub-test.git",
+    "directory": "core/xf"
+  },
+  "dependencies": {
+  }
+}
