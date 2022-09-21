@@ -1,7 +1,7 @@
 {
-  "name": "@christopher.tobolski/xf",
+  "name": "@christopher.tobolski/printer",
   "version": "1.0.0",
-  "description": "a tool for templating monorepo packages",
+  "description": "prints stuff",
   "license": "MIT",
   "author": {
     "name": "Chris Tobolski",
@@ -10,17 +10,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "bin": "cli.js",
+  "bin": "main.js",
   "files": [
-    "cli.js"
+    "main.js"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ctobolski/mono-pub-test.git",
-    "directory": "core/xf"
-  },
-  "dependencies": {
-    "@christopher.tobolski/printer": "*",
-    "commander": "^9.4.0"
+    "directory": "core/printer"
   }
 }

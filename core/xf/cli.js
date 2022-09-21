@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const program = require('commander')
+const { print } = require('@christopher.tobolski/printer')
 
 program
   .option('--first')
@@ -8,5 +9,4 @@ program
 program.parse();
 
 const options = program.opts();
-const limit = options.first ? 1 : undefined;
-console.log('Echo', program.args[0])
+print(program.args[0])
