@@ -9,4 +9,4 @@ program.parse();
 
 const options = program.opts();
 const limit = options.first ? 1 : undefined;
-console.log(program.args[0])
+console.log('Echo', program.args[0])
