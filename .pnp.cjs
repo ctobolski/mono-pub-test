@@ -38,7 +38,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["commander", "npm:9.4.0"],\
             ["lerna", "npm:5.5.2"]\
           ],\
           "linkType": "SOFT"\
@@ -80,7 +79,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@christopher.tobolski/mono-pub-test", "workspace:."],\
-            ["commander", "npm:9.4.0"],\
             ["lerna", "npm:5.5.2"]\
           ],\
           "linkType": "SOFT"\
@@ -90,7 +88,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:core/xf", {\
           "packageLocation": "./core/xf/",\
           "packageDependencies": [\
-            ["@christopher.tobolski/xf", "workspace:core/xf"]\
+            ["@christopher.tobolski/xf", "workspace:core/xf"],\
+            ["commander", "npm:9.4.0"]\
           ],\
           "linkType": "SOFT"\
         }]\

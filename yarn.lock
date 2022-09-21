@@ -36,7 +36,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@christopher.tobolski/mono-pub-test@workspace:."
   dependencies:
-    commander: ^9.4.0
     lerna: ^5.5.2
   bin:
     mono-pub-test: bin/main.js
@@ -46,6 +45,8 @@ __metadata:
 "@christopher.tobolski/xf@workspace:core/xf":
   version: 0.0.0-use.local
   resolution: "@christopher.tobolski/xf@workspace:core/xf"
+  dependencies:
+    commander: ^9.4.0
   bin:
     xf: cli.js
   languageName: unknown

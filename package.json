@@ -7,9 +7,6 @@
     "mono-pub-test": "echo 'hello'"
   },
   "packageManager": "yarn@3.2.3",
-  "dependencies": {
-    "commander": "^9.4.0"
-  },
   "workspaces": [
     "core/*"
   ],

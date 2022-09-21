@@ -10,9 +10,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "bin": {
-    "xf": "cli.js"
-  },
+  "bin": "cli.js",
   "files": [
     "cli.js"
   ],
@@ -22,5 +20,6 @@
     "directory": "core/xf"
   },
   "dependencies": {
+    "commander": "^9.4.0"
   }
 }
